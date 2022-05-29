@@ -1,4 +1,7 @@
+from debug import debug, debug_log
+x = debug_log.append("[Commands] Initializing...") if debug else None
 def command_getparams(command_name, src):
+    x = debug_log.append('[Commands] Getting params from input of "src"'.replace("src", src)) if debug else None
     src_fixed = src[len(command_name)+1:]
     src_fixed = src_fixed.split(" ")
     conjoined1 = []
@@ -23,6 +26,7 @@ def command_getparams(command_name, src):
                     break
                 else:
                     conjoined[0] = conjoined[0]+src_fixed[idxx]+" "
+    x = debug_log.append("[Commands] Found params and strings, returning to command execution") if debug else None
     return src_fixed, conjoined1, conjoined2
 
 def command_help():

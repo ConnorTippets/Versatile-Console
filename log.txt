@@ -1,0 +1,46 @@
+[VersatileConsole] Initializing...
+[Python] Imported command functions
+[Commands] Initializing...
+[Python] Imported script termination functions
+[VersatileConsole] Found list of commands
+[VersatileConsole] Got input of "HELP"
+[VersatileConsole] Executing commands
+[VersatileConsole] Execution of commands completed
+[VersatileConsole] Got input of "HElP"
+[VersatileConsole] Executing commands
+[VersatileConsole] Execution of commands completed
+[VersatileConsole] Got input of "lfl"
+[ERROR] "LFL" not a command. Restarting.
+[VersatileConsole] Got input of "lfdlf"
+[ERROR] "LFDLF" not a command. Restarting.
+[VersatileConsole] Got input of "exec"
+[VersatileConsole] Executing commands
+[Commands] Getting params from input of "exec"
+[Commands] Found params and strings, returning to command execution
+[VersatileConsole] Executing commands
+[VersatileConsole] Execution of commands completed
+[VersatileConsole] Got input of "EXEC"
+[VersatileConsole] Executing commands
+[Commands] Getting params from input of "EXEC"
+[Commands] Found params and strings, returning to command execution
+[VersatileConsole] Executing commands
+[VersatileConsole] Execution of commands completed
+[VersatileConsole] Got input of "exec echo EXEC"
+[VersatileConsole] Executing commands
+[Commands] Getting params from input of "exec echo EXEC"
+[Commands] Found params and strings, returning to command execution
+[VersatileConsole] Executing commands
+[Commands] Getting params from input of "echo EXEC"
+[Commands] Found params and strings, returning to command execution
+[VersatileConsole] Execution of commands completed
+[VersatileConsole] Got input of "EXEC eCho Ehfk"
+[VersatileConsole] Executing commands
+[Commands] Getting params from input of "EXEC eCho Ehfk"
+[Commands] Found params and strings, returning to command execution
+[VersatileConsole] Executing commands
+[VersatileConsole] Execution of commands completed
+[VersatileConsole] Got input of "hey"
+[ERROR] "HEY" not a command. Restarting.
+[VersatileConsole] Got input of "END"
+[VersatileConsole] Executing commands
+[Python] Script Ending, calling script termination functions

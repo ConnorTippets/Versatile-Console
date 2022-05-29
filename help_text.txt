@@ -2,4 +2,5 @@
 help
 echo
 exec
+end
 ///END OF COMMANDS///
