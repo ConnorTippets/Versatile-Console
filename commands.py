@@ -30,3 +30,8 @@ def command_help():
     commands = help_txt.read()
     help_txt.close()
     return commands
+
+
+def command_echo(src):
+    params = command_getparams("echo", src)[0]
+    return " ".join(params)

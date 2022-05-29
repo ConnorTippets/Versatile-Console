@@ -7,6 +7,8 @@ def console(command_list):
         print("")
         if command_name == "help":
             print(commands.command_help())
+        elif command_name == "echo":
+            print(commands.command_echo(command))
         print("")
         return console(command_list)
     else:

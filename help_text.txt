@@ -1,3 +1,4 @@
 ///COMMANDS///
 help
+echo
 ///END OF COMMANDS///
