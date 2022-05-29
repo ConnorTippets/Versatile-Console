@@ -11,6 +11,8 @@ def exec_commands(command_name, command):
         command = commands.command_exec(command)
         command_name = command.split(" ")[0]
         return exec_commands(command_name, command)
+    elif command_name == "iddqd":
+        print(commands.command_iddqd())
     print("")
 
 def console(command_list):

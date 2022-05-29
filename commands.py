@@ -36,3 +36,5 @@ def command_echo(src):
 def command_exec(src):
     params = command_getparams("exec", src)[0]
     return " ".join(params)
+def command_iddqd():
+    return "Degreelessness Mode on"
