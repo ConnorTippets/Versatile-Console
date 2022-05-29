@@ -4,8 +4,10 @@ def console(command_list):
     command = input(": ")
     command_name = command.split(" ")[0]
     if command_name in command_list:
+        print("")
         if command_name == "help":
-            print("\n"+commands.command_help()+"\n")
+            print(commands.command_help())
+        print("")
         return console(command_list)
     else:
         print("Syntax Error: Not a command")
