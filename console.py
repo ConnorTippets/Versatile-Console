@@ -5,7 +5,7 @@ def console(command_list):
     command_name = command.split(" ")[0]
     if command_name in command_list:
         if command_name == "help":
-            print(commands.command_help())
+            print("\n"+commands.command_help()+"\n")
         return console(command_list)
     else:
         print("Syntax Error: Not a command")
