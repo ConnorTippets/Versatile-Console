@@ -1,7 +1,7 @@
 import commands
 
 def console(command_list):
-    command = input("")
+    command = input(": ")
     command_name = command.split(" ")[0]
     if command_name in command_list:
         if command_name == "help":
