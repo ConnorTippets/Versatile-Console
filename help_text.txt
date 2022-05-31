@@ -3,4 +3,5 @@ help
 echo
 exec
 end
+cls or clear
 ///END OF COMMANDS///

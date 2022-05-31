@@ -1,10 +1,15 @@
-#Versatile Console 1.1 Changelog
+#Versatile Console 1.2 Changelog
 ##Added:
 	###MAJOR:
-		Debug mode. Accessible by adding `-debug 1` as a argument when opening the script from a command line
+		Added a GUI!
 	###MINOR:
-		Add end command to stop script
+		Add cls/clear command to clear output
 
-##What does debug mode do?:
-Append debug messages to a list as you use the console\
-All debug messages get dumped into a file at the end called `log.txt`\
+##How to use the GUI
+At the bottom, there is a textbox where you type your commands.\
+After typing your command, press enter.\
+The command output is displayed just above the textbox.
+
+###Minor Note
+In order to clear the textbox, it uses the keyboard module to CTRL+A+Backspace
+That might sound bad, but this runs super super fast and you can't really switch to anything else within a fraction of a second.
