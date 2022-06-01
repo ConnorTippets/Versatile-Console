@@ -79,7 +79,8 @@ def console(command_list, command):
                 keyboard.press_and_release('ctrl+a,backspace')
         else:
             x = debug_log.append('[ERROR] "cmd_name" not a command. Restarting.'.replace("cmd_name", command_name.upper())) if debug else None
-            print("Syntax Error: Not a command")
+            outputLabel.config(text=outputLabel.cget("text")+"Syntax Error: Not a command"+"\n")
+            keyboard.press_and_release('ctrl+a,backspace')
 
 root.bind('<Return>', giveInput)
 root.mainloop()
